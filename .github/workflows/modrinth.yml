@@ -1,0 +1,22 @@
+name: Modrinth Push
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout sources
+      uses: actions/checkout@v4
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: 17
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v3
+    - name: Publish with Gradle
+      env:
+        MODRINTH_API: ${{ secrets.MODRINTH_API }}
+      run: cp gradle.properties.example gradle.properties && sed '41 s/modrinth_api_key=/modrinth_api_key=$MODRINTH_API/' gradle.properties.example > gradle.properties && ./gradlew modrinth
