@@ -3,14 +3,15 @@
   "id": "valkyrienskies",
   "version": "${version}",
   "name": "Valkyrien Skies 2",
-  "description": "Moving blocks with physics :)",
+  "description": "Moving blocks with physics :) Now compatible with Complete Config!",
   "authors": [
     "Tri0de",
-    "Rubydesic"
+    "Rubydesic",
+    "ash-development"
   ],
   "contact": {
     "homepage": "https://valkyrienskies.org/",
-    "sources": "https://github.com/ValkyrienSkies/Valkyrien-Skies-2/"
+    "sources": "https://github.com/ash-development/ValkSky2/"
   },
   "license": "Apache-2.0",
   "icon": "assets/valkyrienskies/icon.png",

@@ -1,15 +1,16 @@
 modLoader = "javafml"
 loaderVersion = "[40,)"
-issueTrackerURL = "https://github.com/ValkyrienSkies/Valkyrien-Skies-2/issues"
+issueTrackerURL = "https://github.com/ash-development/ValkSky2/issues"
 license = "Apache-2.0"
 
 [[mods]]
 modId = "valkyrienskies"
 version = "${version}"
 displayName = "Valkyrien Skies 2"
-authors = ["Tri0de", "Rubydesic"]
+authors = ["Tri0de", "Rubydesic", "ash-development"]
 description = '''
 Moving blocks with physics :)
+Now compatible with Complete Config!
 '''
 logoFile = "icon.png"
 
