@@ -5,7 +5,7 @@ license = "Apache-2.0"
 
 [[mods]]
 modId = "valkyrienskies"
-version = "${version}"
+version = "${version}-fo"
 displayName = "Valkyrien Skies 2"
 authors = ["Tri0de", "Rubydesic", "ash-development"]
 description = '''

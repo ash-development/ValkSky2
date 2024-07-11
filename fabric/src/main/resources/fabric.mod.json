@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "valkyrienskies",
-  "version": "${version}",
+  "version": "${version}-fa",
   "name": "Valkyrien Skies 2",
   "description": "Moving blocks with physics :) Now compatible with Complete Config!",
   "authors": [

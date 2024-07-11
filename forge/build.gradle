@@ -213,7 +213,7 @@ publishing {
         mavenForge(MavenPublication) {
             groupId = "org.valkyrienskies"
             version = project.version
-            artifactId = rootProject.archives_base_name + "-" + project.name
+            artifactId = rootProject.archives_base_name + "-" + project.name + "-forge"
             // Publish the dev shadow jar to maven
             artifact(shadowJar) {
                 classifier "dev-shadow"
